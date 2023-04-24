@@ -1,0 +1,45 @@
+#main {
+ background-color: var(--primary-color);
+}
+
+/* Header */
+.header {
+ height: 64px;
+}
+
+.header::after{
+ content: '';
+ display: block;
+ position: absolute;
+ top: 64px;
+ left: 0;
+ right: 0;
+ border-bottom: 1px solid rgba(134, 42, 38, 0.19);
+}
+
+
+/* Nav */
+.nav {
+ margin-left: 128px;
+}
+
+.nav__item {
+ margin-right: 80px;
+}
+
+.nav__item-link {
+ display: block;
+ padding: 10px 0;
+ text-decoration: none;
+ color: var(--text-primary);
+ font-size: 1.6rem;
+ font-family: var(--font-family-body);
+}
+
+.nav__item-link:hover {
+ color: var(--text-primary);
+ opacity: 0.7;
+}
+
+
+/* Hero */

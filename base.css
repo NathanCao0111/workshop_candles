@@ -1,0 +1,32 @@
+:root {
+ /* Color */
+ --primary-color: #F8F4EE;
+ --accent-red-bold: #B3302B;
+ --accent-red-reg: #FF8B87;
+
+ /* Text color */
+ --text-primary: #0C0C0C;
+ --text-secondary: #5E5E5E;
+ --text-btn: #FFFFFF;
+
+ /* Font family */
+ --font-family-body: 'Open Sans', sans-serif;
+ --font-family-headline: 'Prata', serif;
+}
+
+* {
+ box-sizing: inherit;
+}
+
+html {
+ font-size: 62.5%;
+ line-height: 1.6rem;
+ box-sizing: border-box;
+}
+
+.grid {
+ width: 100%;
+ max-width: 1120px;
+ margin: 0 auto;
+}
+
